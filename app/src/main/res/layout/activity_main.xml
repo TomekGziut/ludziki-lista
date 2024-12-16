@@ -7,4 +7,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inp_imie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imię" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inp_nazwisko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nazwisko" />
+
+        <EditText
+            android:id="@+id/inp_wiek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Wiek"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inp_wzrost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Wzrost (cm)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inp_waga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Waga (kg)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_zapisz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zapisz" />
+
+        <Button
+            android:id="@+id/btn_ekran_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ekran 2" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
