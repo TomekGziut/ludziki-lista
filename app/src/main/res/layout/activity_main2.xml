@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/textViewImie"
+        android:id="@+id/tv_imie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Imię: "
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
 
     <TextView
-        android:id="@+id/textViewNazwisko"
+        android:id="@+id/tv_nazwisko"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nazwisko: "
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/textViewWiek"
+        android:id="@+id/tv_wiek"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wiek: "
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
 
     <TextView
-        android:id="@+id/textViewWzrost"
+        android:id="@+id/tv_wzrost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wzrost: "
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
 
     <TextView
-        android:id="@+id/textViewWaga"
+        android:id="@+id/tv_waga"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Waga: "
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
 </LinearLayout>

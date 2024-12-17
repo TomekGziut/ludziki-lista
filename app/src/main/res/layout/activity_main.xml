@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -18,13 +17,19 @@
             android:id="@+id/inp_imie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Imię" />
+            android:hint="Imię"
+            android:inputType="text"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inp_nazwisko"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nazwisko" />
+            android:hint="Nazwisko"
+            android:inputType="text"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText" />
 
         <EditText
             android:id="@+id/inp_wiek"
@@ -32,7 +37,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Wiek"
-            android:inputType="number" />
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText" />
 
         <EditText
             android:id="@+id/inp_wzrost"
@@ -40,7 +47,9 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Wzrost (cm)"
-            android:inputType="number" />
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText" />
 
         <EditText
             android:id="@+id/inp_waga"
@@ -48,19 +57,23 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Waga (kg)"
-            android:inputType="number" />
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText" />
 
         <Button
             android:id="@+id/btn_zapisz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="zapisz" />
+            android:text="zapisz"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_ekran_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ekran 2" />
+            android:text="Ekran 2"
+            tools:ignore="HardcodedText" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
