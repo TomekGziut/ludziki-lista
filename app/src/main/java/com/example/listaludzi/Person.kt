@@ -1,4 +1,6 @@
-data class Ludzik(
+package com.example.listaludzi
+
+data class Person(
     val imie: String,
     val nazwisko: String,
     val wiek: Int,

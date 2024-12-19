@@ -4,45 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MainActivity2">
 
-    <TextView
-        android:id="@+id/tv_imie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Imię: "
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"/>
-
-    <TextView
-        android:id="@+id/tv_nazwisko"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nazwisko: "
-        android:textSize="18sp"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:id="@+id/tv_wiek"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wiek: "
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"/>
-
-    <TextView
-        android:id="@+id/tv_wzrost"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wzrost: "
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"/>
-
-    <TextView
-        android:id="@+id/tv_waga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Waga: "
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
