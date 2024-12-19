@@ -3,11 +3,8 @@ package com.example.listaludzi
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -59,5 +56,7 @@ class MainActivity : AppCompatActivity() {
             val ekran2 = Intent(applicationContext, MainActivity2::class.java)
             startActivity(ekran2)
         }
+
+
     }
 }
